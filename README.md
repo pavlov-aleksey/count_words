@@ -11,7 +11,8 @@ Scripts for caculating 10 most frequent words in the dataset.
 
 **Deployment**
 - git clone https://github.com/pavlov-aleksey/count_words.git
-- virtualenv env
+- cd count_words
+- virtualenv env -p "python3_path"
 - . env/bin/activate
 - pip install -r ./requirements.txt
 - python -m nltk.downloader punkt
